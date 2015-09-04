@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4E6CAD1E-E038-4EAC-ADB9-177B6B41677B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CNews</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9FDCDB7B2743713FA0759D740824E9BD80B5FD93</key>
+		<string>https://github.com/lkjhgfdsa5270/DODODO.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CNews 5 3/CNews.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9FDCDB7B2743713FA0759D740824E9BD80B5FD93</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/lkjhgfdsa5270/DODODO.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9FDCDB7B2743713FA0759D740824E9BD80B5FD93</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9FDCDB7B2743713FA0759D740824E9BD80B5FD93</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DODODO</string>
+		</dict>
+	</array>
+</dict>
+</plist>
