@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface STTableViewController : UITableViewController
-//田俊豪是个大傻逼
+
 @end
