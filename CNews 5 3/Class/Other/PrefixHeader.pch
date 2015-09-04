@@ -1,0 +1,75 @@
+//
+//  PrefixHeader.pch
+//  CNews
+//
+//  Created by lanou3g on 15/8/20.
+//  Copyright (c) 2015年 路飞. All rights reserved.
+//
+
+#ifndef CNews_PrefixHeader_pch
+#define CNews_PrefixHeader_pch
+
+
+#ifndef __OPTIMIZE__
+
+#define NSLog(...) NSLog(__VA_ARGS__)
+
+#else
+
+#define NSLog(...) {}
+
+#endif
+
+
+
+#define TopViewUrl @"http://c.3g.163.com/nc/article/headline/T1348647909107/0-140.html"
+#import"UIImageView+WebCache.h"
+#import "MJRefresh.h"
+#import "RequestTool.h"
+#import"DataHandle.h"
+#import"Model.h"
+
+#import"DetailsPageViewController.h"
+#import"Colours.h"
+#import"DataBaseHandle.h"
+#define kCollectListName @"CollectListName.sqlite"
+#define kCollect @"CollectList"
+#define kHandle [DataBaseHandle shareDataBase]
+#define kMin 0.5
+#define kMax 1
+#define ImageH SCREEN.size.height/3.2
+#define SCREEN [[UIScreen mainScreen] bounds]
+
+
+
+
+#import "Header.h"
+#import "WBDataHandle.h"
+#import "ReadModel.h"
+#import "AFNetworking.h"
+#import "UIImageView+WebCache.h"
+#import "TodayModel.h"
+#import "MJRefresh.h"
+
+
+
+#import "UIImageView+WebCache.h"//图片请求
+
+#import "AFNetworking.h"//网络请求
+
+#import "TModel.h"//娱乐模型
+
+#import "MJRefresh.h"//上拉下拉刷新
+
+#import "JokeModel.h"//段子模型
+
+#import "PicModel.h"//图片模型
+
+
+#endif
+
+
+
+
+
+

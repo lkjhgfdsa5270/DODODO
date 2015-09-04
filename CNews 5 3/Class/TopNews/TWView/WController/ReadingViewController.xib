@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ReadingViewController">
+            <connections>
+                <outlet property="scrollView" destination="fu0-dR-qq1" id="joL-Pg-ewq"/>
+                <outlet property="subTableView" destination="JtS-22-cpO" id="chg-sa-L5g"/>
+                <outlet property="tableVIew" destination="8pt-6E-Ygy" id="sIg-CX-h2h"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fu0-dR-qq1">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HYO-1D-FG6" userLabel="contentView">
+                            <rect key="frame" x="0.0" y="0.0" width="1200" height="600"/>
+                            <subviews>
+                                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" translatesAutoresizingMaskIntoConstraints="NO" id="8pt-6E-Ygy">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </tableView>
+                                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="JtS-22-cpO" userLabel="subTable View">
+                                    <rect key="frame" x="600" y="0.0" width="600" height="600"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </tableView>
+                            </subviews>
+                            <color key="backgroundColor" red="0.37830695469999998" green="1" blue="0.97887086209999996" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="JtS-22-cpO" secondAttribute="trailing" id="NXd-bk-TNu"/>
+                                <constraint firstItem="JtS-22-cpO" firstAttribute="top" secondItem="HYO-1D-FG6" secondAttribute="top" id="OT9-ke-Gc7"/>
+                                <constraint firstItem="8pt-6E-Ygy" firstAttribute="leading" secondItem="HYO-1D-FG6" secondAttribute="leading" id="egJ-KR-2pk"/>
+                                <constraint firstAttribute="bottom" secondItem="8pt-6E-Ygy" secondAttribute="bottom" id="kYc-Iw-14L"/>
+                                <constraint firstItem="JtS-22-cpO" firstAttribute="width" secondItem="HYO-1D-FG6" secondAttribute="width" multiplier="1:2" id="lU2-3I-ru6"/>
+                                <constraint firstItem="8pt-6E-Ygy" firstAttribute="top" secondItem="HYO-1D-FG6" secondAttribute="top" id="odd-J7-BKP"/>
+                                <constraint firstAttribute="bottom" secondItem="JtS-22-cpO" secondAttribute="bottom" id="vEN-6X-wvs"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="HYO-1D-FG6" firstAttribute="top" secondItem="fu0-dR-qq1" secondAttribute="top" id="1Ko-UU-mgd">
+                            <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
+                        </constraint>
+                        <constraint firstAttribute="width" secondItem="HYO-1D-FG6" secondAttribute="width" multiplier="1:2" id="AKV-ZG-3l3"/>
+                        <constraint firstItem="HYO-1D-FG6" firstAttribute="leading" secondItem="fu0-dR-qq1" secondAttribute="leading" id="UOO-lB-AB0"/>
+                        <constraint firstAttribute="centerY" secondItem="HYO-1D-FG6" secondAttribute="centerY" id="Udv-h5-zA4"/>
+                        <constraint firstAttribute="bottom" secondItem="HYO-1D-FG6" secondAttribute="bottom" id="gAy-na-1y9"/>
+                        <constraint firstAttribute="width" secondItem="8pt-6E-Ygy" secondAttribute="width" id="gW6-AA-QU7"/>
+                        <constraint firstAttribute="trailing" secondItem="HYO-1D-FG6" secondAttribute="trailing" id="zvg-Zr-blR">
+                            <variation key="heightClass=regular-widthClass=compact" constant="0.0"/>
+                        </constraint>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerY" secondItem="fu0-dR-qq1" secondAttribute="centerY" id="7Fv-XW-SmC"/>
+                <constraint firstAttribute="trailing" secondItem="fu0-dR-qq1" secondAttribute="trailing" id="Ryx-sR-R1B"/>
+                <constraint firstItem="fu0-dR-qq1" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="bPX-7w-slE"/>
+                <constraint firstItem="fu0-dR-qq1" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="kwv-UK-CsQ"/>
+                <constraint firstAttribute="bottom" secondItem="fu0-dR-qq1" secondAttribute="bottom" id="vNI-kB-cdO"/>
+            </constraints>
+            <point key="canvasLocation" x="327" y="257"/>
+        </view>
+    </objects>
+</document>
